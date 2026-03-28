@@ -1,0 +1,38 @@
+#number = 8
+#result = "Even" if number % 2 == 0 else "even"
+#print(f"the number is {result}.")
+
+#marks = 100
+#if marks >= 50:
+    #print("pass")
+#else:
+    #print("fail")
+
+#x = 10
+#if x > 0:
+    #print("x is positive")
+
+#x = int(input("Enter a number"))
+#if x > 0:
+    #print("x is positive")
+#else:
+    #print("x is not positive")
+
+num = 2 
+
+match num:
+    case 1:
+        print("One")
+    case 2:
+        print("Two")
+    case _:
+        print("other")
+
+num = int(input("Enter a number"))
+match num:
+    case 1:
+        print("One")
+    case 2:
+        print("Two")
+    case _:
+        print("other")
